@@ -33,7 +33,7 @@
                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><i
                                 class="fa fa-info fa-lg"></i>About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i>Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
                                 class="fa fa-address-card fa-lg"></i>Contact</a></li>
                 </ul>
 
@@ -358,7 +358,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5 ">
@@ -401,35 +401,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#myCarousel").carousel({ interval: 1000 });
-            $("#carouselButton").click(function () {
-                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                    $("#myCarousel").carousel('pause');
-                    $("#carouselButton").children("span").removeClass('fa-pause');
-                    $("#carouselButton").children("span").addClass('fa-play');
-                }
-                else if ($("#carouselButton").children("span").hasClass('fa-play')) {
-                    $("#myCarousel").carousel('cycle');
-                    $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');
-                }
-            });
-        });
-
-        // JS code for triggering reservation modal
-        $('#reservationTrigger').click(function () {
-            $('#tableReservation').modal('toggle');
-        })
-
-        // JS code for triggering login modal
-        $('#loginTrigger').click(function(){
-            $('#loginModal').modal('toggle');
-        })
-
-
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
