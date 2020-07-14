@@ -76,3 +76,44 @@ body{
     z-index: 1;
 }
 
+
+#loginModal{
+    .modal-dialog{
+        .modal-content{
+            .modal-header{
+                background: $background-dark;
+                .modal-title{
+                    color: floralwhite;
+                }
+                .close{
+                    color: floralwhite;
+                }
+                
+            }
+            .modal-body{
+                background: $background-pale;
+            }
+        }
+    }
+}
+
+
+#tableReservation{
+    .modal-dialog{
+        .modal-content{
+            .modal-header{
+                background: $background-dark;
+                .modal-title{
+                    color: floralwhite;
+                }
+                .close{
+                    color: floralwhite;
+                }
+                
+            }
+            .modal-body{
+                background: $background-pale;
+            }
+        }
+    }
+}
